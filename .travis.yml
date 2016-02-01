@@ -4,11 +4,13 @@ jdk: oraclejdk7
 env:
   matrix:
     - ANDROID_TARGET=android-18 ANDROID_ABI=armeabi-v7a
-    
+
 android:
   components:
-     - platform-tools
-     - tools
+  - platform-tools
+  - tools
+  - build-tools-23.0.2
+  - android-23
 
     # The BuildTools version used by your project
     - build-tools-23.0.2
