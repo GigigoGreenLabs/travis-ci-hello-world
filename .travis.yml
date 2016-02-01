@@ -24,4 +24,4 @@ android:
   - sys-img-armeabi-v7a-android-18
 
 script:
-./gradlew build check
+  - ./gradlew build check
